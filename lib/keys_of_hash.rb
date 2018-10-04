@@ -4,7 +4,7 @@ class Hash
   
   def keys_of(arguments)
     array = []
-    
+    keys = self.keys
     self.each do |item|
   # binding.pry
   if self[item] == arguments
