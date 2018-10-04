@@ -8,7 +8,7 @@ class Hash
     #arguments.each do |country|
     keys.each do |item|
   # binding.pry
-  if self[item] == country
+  if self[item] == arguments
     array.push(item)
 #end
 end
