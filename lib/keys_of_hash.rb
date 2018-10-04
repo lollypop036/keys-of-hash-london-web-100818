@@ -5,9 +5,9 @@ class Hash
   def keys_of(arguments)
     array = []
     
-    self.each do |k,v|
+    self.each do |k|
   # binding.pry
-  if v == arguments
+  if self. == arguments
     array.push(self.key(arguments))
 
 end
