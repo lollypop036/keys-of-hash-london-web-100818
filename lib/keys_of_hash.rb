@@ -6,7 +6,7 @@ class Hash
     self.each do |k,v|
    
   if v == arguments
-    array.push(k.keys(arguments))
+    array.push(self.keys(k))
 
 end
 end
