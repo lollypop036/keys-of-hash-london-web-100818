@@ -11,9 +11,9 @@ class Hash
   
           if self[item] == country
              array.push(item)
-end
-end
-end
+          end
+        end
+      end
   
 array 
 end
