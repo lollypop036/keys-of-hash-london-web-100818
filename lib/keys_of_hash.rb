@@ -8,7 +8,7 @@ class Hash
     self.each do |item|
   # binding.pry
   if self[item] == arguments
-    array.push(self.key(arguments))
+    array.push(self.key(item))
 
 end
 end
