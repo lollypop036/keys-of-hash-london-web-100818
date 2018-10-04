@@ -6,7 +6,7 @@ class Hash
     array = []
     
     self.each do |k,v|
-   binding.pry
+  # binding.pry
   if v == arguments
     array.push(self.key(v))
 
